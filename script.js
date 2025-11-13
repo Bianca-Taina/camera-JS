@@ -1,13 +1,15 @@
 const camera = document.getElementById("camera");
 
-camera.addEventListener("mouseover",acender);
-camera.addEventListener("mouseout",apagar);
 
-function acender(){
-    camera.src = "Downloads.png";
-    document.body.style.background = "#fcfcfcff"
+function iniciar(){
+    camera.src = "maq.png";
+    
 }
-function apagar(){
-    camera.src = "downloads.png";
-    document.body.style.background = "#222"
+function tirarFoto(){
+    camera.src = "maqFlash.png";
+     
+}
+function automatico(){
+    camera.src = "automatico.gif";
+
 }
