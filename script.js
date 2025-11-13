@@ -4,10 +4,10 @@ camera.addEventListener("mouseover",acender);
 camera.addEventListener("mouseout",apagar);
 
 function acender(){
-    camera.src = "on.png";
-    document.body.style.background = "#571664ff"
+    camera.src = "flah.png";
+    document.body.style.background = "#fcfcfcff"
 }
 function apagar(){
-    camera.src = "off.png";
+    camera.src = "download.png";
     document.body.style.background = "#222"
 }
